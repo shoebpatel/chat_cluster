@@ -1,6 +1,6 @@
 # chat_cluster
 
-![alt text](https://github.com/shoebpatel/Auth_Service/blob/main/design_flow.png)
+![alt text](https://github.com/shoebpatel/chat_cluster/blob/main/design_flow.png)
 
 
 - ✅  SignUp/login
