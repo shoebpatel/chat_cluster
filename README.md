@@ -21,9 +21,12 @@ Using SocketCluster a highly scalable pub/sub and RPC framework for the first ti
   - Pub/sub channels are very cheap. You can have millions of unique channels without worrying about memory or CPU usage.
   - Thus, creating a private channel for each Client is one of the solution to share private message on the SocketCluster enviornment.
 5. A Client can subscribe/publish to a global chat channel to share/receive data from every loggin user.
-
-
 ```
-User Data 
+```
+User Data stored inside a persisted database like MySQL
 {
+  "userName": "Jhon",
+  "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+  "channels": ["jhon@2106","chatroom"]
 }
+```
