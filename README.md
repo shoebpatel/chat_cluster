@@ -11,7 +11,7 @@
 Using SocketCluster a highly scalable pub/sub and RPC framework for the first time was little bit challenging. But the documention & client/server library is really handy while consuming.
 
 ```
-Functionality
+- Functionality
 1. Client invoke an RPC call to login to the server where a procedure can authenticate the client.
 2. Server provide the auth token for subsequent RPC call & list of channels accessible to the connected client.
 3. Client can only subscribe to the channels set inside the AuthToken method while listening to the authenticate event.
