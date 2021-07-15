@@ -12,7 +12,7 @@ Using SocketCluster a highly scalable pub/sub and RPC framework for the first ti
 
 1. Client invoke an RPC call to login to the server where a procedure can authenticate the client.
 2. Server provide the auth token for subsequent RPC call & list of channels accessible to the connected client.
-3. Client can only subscribe to the channels set inside the AuthToken while listening to the authenticate event.
+3. Client can only subscribe to the channels set inside the AuthToken method while listening to the authenticate event.
 4. Thus, A private message publish to a particular client is garanteed to be delivered as, only he has the access to subscribe to that private channel.
   - Pub/sub channels are very cheap. You can have millions of unique channels without worrying about memory or CPU usage.
   - Thus, creating a private channel for each Client is one of the solution to share private message on the SocketCluster enviornment.
